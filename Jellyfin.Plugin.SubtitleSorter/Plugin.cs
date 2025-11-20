@@ -55,7 +55,7 @@ namespace Jellyfin.Plugin.SubtitleSorter
             this._libraryManager = libraryManager;
             this._logger = loggerFactory.CreateLogger<Plugin>();
             this._fileSystem = fileSystem;
-            Instance = this; 
+            Instance = this;
         }
 
         /// <inheritdoc />
