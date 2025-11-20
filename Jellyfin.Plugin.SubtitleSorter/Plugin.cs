@@ -23,6 +23,7 @@ namespace Jellyfin.Plugin.SubtitleSorter
     using System.Threading;
     using System.Threading.Tasks;
     using Jellyfin.Data.Enums;
+    using Jellyfin.Database.Implementations.Enums;
     using Jellyfin.Plugin.SubtitleSorter.Configuration;
     using MediaBrowser.Common.Configuration;
     using MediaBrowser.Common.Plugins;
